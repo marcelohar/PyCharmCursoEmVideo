@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796e4280-05f2-48df-9116-4bd2706d4fc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/exercicios/ex002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/ex003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/ex004.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/ex000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/ex001.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,9 @@
     "Python.001.executor": "Run",
     "Python.ex000.executor": "Run",
     "Python.ex001.executor": "Run",
+    "Python.ex002.executor": "Run",
+    "Python.ex003.executor": "Run",
+    "Python.ex004.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
