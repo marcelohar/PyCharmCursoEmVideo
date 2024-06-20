@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796e4280-05f2-48df-9116-4bd2706d4fc4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PyCharmCursoEmVideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyCharmCursoEmVideo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex000.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex001.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/001.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/marcelo.rangel/Documents/Projetos/PyCharmCursoEmVideo"
+    "last_opened_file_path": "C:/Users/marcelo.rangel/Documents/Projetos/PyCharmCursoEmVideo",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
