@@ -1,4 +1,5 @@
 print('====== Desafio 3 ======')
+
 n1 = int(input('Primeiro número: '))
 n2 = int(input('Segundo número: '))
 
