@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796e4280-05f2-48df-9116-4bd2706d4fc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/aulas/aula07a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
     "Notification.DisplayName-DoNotAsk-Execution": "External process execution failed",
     "Notification.DoNotAsk-Execution": "true",
     "Python.001.executor": "Run",
+    "Python.aula07a.executor": "Run",
     "Python.ex000.executor": "Run",
     "Python.ex001.executor": "Run",
     "Python.ex002.executor": "Run",
@@ -52,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marcelo.rangel\Documents\Projetos\PyCharmCursoEmVideo\aulas" />
       <recent name="C:\Users\marcelo.rangel\Documents\Projetos\PyCharmCursoEmVideo\exercicios" />
     </key>
   </component>
