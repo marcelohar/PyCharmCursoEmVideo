@@ -10,4 +10,4 @@ sucessor = num + 1
 
 antecessor = num - 1
 
-print('O antecessor de {} é {} e o sucessor de {} é {}. '.format(num, antecessor, num, sucessor))
+print('O antecessor de {} é {}. \no sucessor de {} é {}. '.format(num, antecessor, num, sucessor))
