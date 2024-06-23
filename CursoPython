@@ -1,0 +1,362 @@
+
+aula 1 -
+
+aula 2 - para que serve o python?
+
+    História -
+    inicio = 1982 Amsterdan holanda / gyudi van hossum liguagem abc para python
+    1995 - CP4E PATROCINADO PELA DARPA
+    2001 - FUNDAÇÃO PYTHON SOFTWARE FOUNDATION (PSF)
+
+    LIGUAGEM QUE VEM INSTALADO DE FABRIA EM: AMIGA, NetBSD, MacOS Linux... RaspberryPi
+
+    CARACTERISTICAS PYTHON:
+        Linguagem de propósito geral;
+        Fácil e intuitivo;
+        Multiplataforma;
+        Linguagem batteries included (pacotes);
+        Livre;
+        Organizada (as posições tem seus lugares);
+        Orientada a objetos;
+        Muitas bibliotecas;
+
+
+    Principais áreas:
+        Inteligência artificial;
+        Biotecnologia;
+        Computação 3D;
+
+    Quem usa python;
+        Zope;
+        Air Canada
+        BitTorrent
+        Glogo;
+        Google;
+        YouTube;
+        NASA;
+        Industrial light e magic;
+
+        blander gimp
+        arduino
+
+        frets on fire
+        eve
+        batterfild2
+
+Aula 3 – Instalando o Python3 e o IDLE (Modo interativo do python (cmd legal))
+
+
+   usuário --> (interprete / interpretador )--> Linguagem de máquina
+
+   python = interpretador
+
+   instalando o python:
+    * https://www.python.org/downloads/release/python-3124/
+    * Windows installer (64-bit) ou  python-3.12.4-amd64
+
+    executar / selecionar add python. to path /instal now / após concluir, selecionar "disable path length limit"
+    obs: caso haja algum erro, reistale o programa com a opção de "reparação"
+
+Aula 4 – Primeiros comandos em Python3
+
+    primeiros comandos de python
+
+    DELIMITADOR = ' OU " -- Geralmente usa o '
+
+    obs: No python, todos os comandos são Funções!
+
+    juntar texto = + ou , --- '+' agrupa somente texto. --  ',' agrupa texto e números
+
+    obs: toda variável é um objeto para o java
+
+    funções: print(''); input('')
+
+    * Criando scripts separados em python para executar quando quiser
+
+        dentro do IDLE( IDLE = modo interativo) / menu file / new file / salvar e executar
+
+    * Abrindo script --  abrir o 'python IDLE' / file / open /  ir até o caminho do arquivo e precionar 'F5'para exeutar
+
+    ** DESAFIOS:
+        - Criar um script que leia o nome de uma pessoa e mostre uma mensagem de boas-vnidas de acordo com o valor digitado;
+            print('====== DESAFIO 01 ======')
+            nome = input('Qual é o seu nome? ')
+            print('Olá',nome,'! Prazer em te conhecer!')
+            ou
+            print("É um grande prazer te conhecer, {}!".format(nome))  /// troca as chaves pelo variavel já formata
+
+
+        - Crie um script que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada
+            print('====== DESAFIO 02 ======')
+
+            dia = input('Dia = ')
+            mes = input('Mês = ')
+            ano = input('Ano = ')
+
+            print('Voce nasceu no dia', dia, 'de',mes, 'de', ano,'. Correto?')
+
+        - crie um script que leia dois números e tente mostrar a soma entre eles.
+            print('====== DESAFIO 02 ======')
+
+            n1 = int(input('Primeiro número '))
+            n2 = int(input('Segundo número '))
+            soma = n1+n2
+            print('A soma é ', soma)
+
+Aula 5 – Instalando o PyCharm (PC) e o QPython3(Android) (IDE para desenvolver)
+
+    baixar o PyCharm "community": https://www.jetbrains.com/pt-br/pycharm/download/?section=windows
+    obs: podemos abrir o console do python dentro do pycharm, acesse através do menu tools
+
+    Exercício 1 – Deixando tudo pronto
+        obs:
+        - Para o python entende que é o final do programa, é necessário da um 'ENTER' na última linha e manter o padrão de identação.
+        - Para escluir um arquivo, clicar com botão direito em cima / Refactor / Safe Delete / ok
+
+Aula 6 – Tipos Primitivos e Saída de Dados
+
+    int = 1, -4, 0
+    float = 4.5, 0.07
+    bool = True , False
+    str = 'Olá', '7.5', ''
+
+    {} . format() =  para usar dentro da strings
+
+     # = Comentário
+
+     casos dos .is..
+         ( isupper = verifica se está em maiúsculo e retorna 'TRue ou False")
+         .isnumeric = retorna true se for um número, mesmo que seja uma string em formato de número, pois é possível converter.
+         isalpha = retorna true se for alfanumerico.
+
+         - desafio 004
+            Faça um programa que leia algo pelo teclado e  moestre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+
+
+        Exercício 3 – Somando dois números
+
+        Exercício 4 -
+            print('====== Desafio 4 ======')
+
+            dados = input('Digite alguma coisa: ')
+
+            print('Tipo de dado digitado: {}'.format(type(dados)))
+
+            print('Só tem espaços: ', dados.isspace())
+            print('Pode ser um  numero? {}'.format(dados.isnumeric()))
+            print('Pode ser um  alfabetico?', dados.isalpha())
+            print('Pode ser um  alfanumerio? {}'.format(dados.isalnum()))
+            print('Está em maiúscula? ', dados.isupper())
+            print('Está em minúscula? {}'.format(dados.islower()))
+            print('Está com maiúscula e minúscula "capitalizada"', dados.istitle())
+
+Aula 7 – Operadores Aritméticos
+
+    5 + 2 == 7
+    5 - 2 == 3
+    5 * 2 == 10
+    5 / 2 == 2.5    - divisão
+    5 ** 2 == 25
+    5 // 2 == 2     - divisão inteira
+    5 % 2 == 1      - resto da divisão
+
+    ordem de precedencia =
+    1º ()
+    2º ** ou pow(4,3)          #potencias
+    3º *, /, //, %
+    4º +, -
+
+    oi*20 = a 20 vezes a palavra oi kkkk
+
+    ALINHAMENTO
+
+        nome = input('Qual é o seu nome: ')
+        print('Prazer em conhecer {:>20}! '.format(nome))
+            # se colocar : dentro da mascara mais um número, será preenchido o print com essa qtd de espaços.
+            # se logo depois dos : colocar o sinal de >, será colocado os espaços a esquerda do nome.
+            # se logo depois dos : colocar o sinal de ^, o texto ficará centralizado
+            # se logo depois dos : colocar o sinal de = e em seguida o sinal de ^, os espaços vazios serão preenchidos com o sinal de =, e o nome ficará centralizado
+            # se logo depois dos : colocar um ponto(.) e um número, vai formatar a qtd de casas de um número.
+
+        pular linhas
+            se depois do .format(x, y, z) colcoar end='' , não vai pular linha.
+            \n pula linha.
+
+    * Exercício 005
+        Faça um programa que leia um númeo inteiro e mostre na tela o seu sucessor e seu antecessor.
+
+    * Exercício 006
+        Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+
+    * Exercício 007
+        Desenvolva um programa que leia as duas notas de um aluno, calcule e motre a sua média
+
+    * Exercício 008
+        Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros
+
+    * Exercício 009
+        Faça um programa que leia um número inteiro qualquer e mostre na tela sua tabuada
+
+    * Exercício 010
+        Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar (considere US$ 1,00 = 3,27)
+
+    * Exercício 011
+        Faça um programa que leia a largura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pinta-lá, sabendo que cada litro de tinta pinta uma área de 2m^2
+
+    * Exercício 012
+        Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+
+    * Exercício 013
+        faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento.
+
+
+
+
+################################################################################################################
+
+
+comandos basicos python
+
+    ChatGPT
+    Claro! Aqui estão alguns comandos básicos em Python que são essenciais para começar a programar:
+
+    Variáveis e Tipos de Dados python
+
+    # Inteiro
+    a = 10
+
+    # Float
+    b = 3.14
+
+    # String
+    c = "Olá, Mundo!"
+
+    # Lista
+    d = [1, 2, 3, 4, 5]
+
+    # Dicionário
+    e = {"nome": "João", "idade": 30}
+
+    # Booleano
+    f = True
+
+    -------------------------------------------------------------------------------------------
+
+    Operações Básicas python
+
+
+    # Aritmética
+    soma = a + b          # Adição
+    subtracao = a - b     # Subtração
+    multiplicacao = a * b # Multiplicação
+    divisao = a / b       # Divisão
+    exponenciacao = a ** 2 # Exponenciação
+
+    # Concatenação de strings
+    mensagem = "Olá" + ", " + "Mundo!"
+
+    # Operações com listas
+    d.append(6)           # Adiciona um elemento ao final da lista
+    d.remove(3)           # Remove o primeiro elemento igual a 3
+
+    -------------------------------------------------------------------------------------------
+
+    Estruturas de Controle
+
+    If/Elif/Else
+    python
+
+
+    if a > b:
+        print("a é maior que b")
+    elif a < b:
+        print("a é menor que b")
+    else:
+        print("a é igual a b")
+
+    -------------------------------------------------------------------------------------------
+
+    Laços de Repetição python
+
+    # For
+    for i in range(5):    # range(5) gera os números de 0 a 4
+        print(i)
+
+    # While
+    contador = 0
+    while contador < 5:
+        print(contador)
+        contador += 1     # Equivalente a contador = contador + 1
+
+    -------------------------------------------------------------------------------------------
+
+    Funções python
+
+    def saudacao(nome):
+        return f"Olá, {nome}!"
+
+    mensagem = saudacao("Maria")
+    print(mensagem)
+
+    -------------------------------------------------------------------------------------------
+
+    Trabalhando com Listas
+
+    # Acessando elementos
+    primeiro_elemento = d[0]  # Índice 0
+
+    # Fatiamento
+    sub_lista = d[1:3]       # Elementos do índice 1 até 2
+
+    # Comprimento da lista
+    tamanho = len(d)
+
+    -------------------------------------------------------------------------------------------
+
+    Dicionários
+
+    # Acessando valores
+    nome = e["nome"]
+
+    # Adicionando e removendo pares chave-valor
+    e["sobrenome"] = "Silva"
+    del e["idade"]
+
+    -------------------------------------------------------------------------------------------
+
+    Entrada e Saída
+
+    # Entrada de dados
+    nome = input("Digite seu nome: ")
+
+    # Saída de dados
+    print(f"Olá, {nome}!")
+
+    -------------------------------------------------------------------------------------------
+
+    Manipulação de Arquivos
+
+    # Abrindo um arquivo para escrita
+    with open("arquivo.txt", "w") as arquivo:
+        arquivo.write("Olá, Mundo!\n")
+
+    # Abrindo um arquivo para leitura
+    with open("arquivo.txt", "r") as arquivo:
+        conteudo = arquivo.read()
+        print(conteudo)
+
+    -------------------------------------------------------------------------------------------
+
+    Tratamento de Erros
+
+    try:
+        resultado = 10 / 0
+    except ZeroDivisionError:
+        print("Erro: divisão por zero!")
+    finally:
+        print("Bloco finally executado.")
+
+    -------------------------------------------------------------------------------------------
+
+    Esses são apenas alguns comandos básicos para começar com Python. À medida que você avança, há muitos outros conceitos e bibliotecas para explorar. Se você tiver alguma dúvida específica ou quiser saber mais sobre um tópico, estou à disposição!
+-------------------------------------------------------------------------------------------
