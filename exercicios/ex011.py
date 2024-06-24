@@ -10,3 +10,5 @@ area = alt * lar
 litros = area / 2
 
 print('É necessário {}L para pintar uma área de {}m quadrados!'.format(litros, area))
+
+

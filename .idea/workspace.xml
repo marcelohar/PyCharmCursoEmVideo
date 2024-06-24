@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796e4280-05f2-48df-9116-4bd2706d4fc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicios/ex011.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CursoPython" beforeDir="false" afterPath="$PROJECT_DIR$/CursoPython" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/ex012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/ex011.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex011.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +53,12 @@
     "Python.ex009.executor": "Run",
     "Python.ex010.executor": "Run",
     "Python.ex011.executor": "Run",
+    "Python.ex012.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/marcelo.rangel/Documents/Projetos/PyCharmCursoEmVideo",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,5 +84,16 @@
       <updated>1718886879607</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercicios/ex006.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
