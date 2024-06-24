@@ -8,5 +8,3 @@ newVal = val - (val * 0.05)
 
 print('Preço do produto com 5% de desconto: {}'.format(newVal))
 
-
-
