@@ -6,8 +6,7 @@ print('{:=^40}'.format(' Desafio 005 '))
 
 num = int(input('Digite um número inteiro: '))
 
-sucessor = num + 1
+print('O antecessor de {} é {}. \no sucessor de {} é {}. '.format(num, (num-1), num, (num+1)))
 
-antecessor = num - 1
+# Lembrando que de primeira usei 3 variáveis, mas quanto mais variável mais memória consome.
 
-print('O antecessor de {} é {}. \no sucessor de {} é {}. '.format(num, antecessor, num, sucessor))

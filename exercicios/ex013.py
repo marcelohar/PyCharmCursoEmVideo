@@ -3,7 +3,7 @@
 
 print('{:=^40}'.format(' Desafio 013 '))
 
-sal = float(input('Informe o salário: '))
+sal = float(input('Informe o salário: R$ '))
 newSal = sal + (sal * 0.15)
 
-print('Salário atualizado com 15% de aumento: {}'.format(newSal))
+print('Salário atualizado com 15% de aumento: R$ {:.2f}'.format(newSal))

@@ -5,10 +5,7 @@ print('{:=^40}'.format(' Desafio 006 '))
 
 num = int(input('Digite um número: '))
 
-dobro = num * 2
-triplo = num * 3
-rQuadrada = num ** 0.5
-
 print('O dobro de {} é {}. \n'
       'O triplo de {} é {}. \n'
-      'A Raiz quadrada de {} é {}.'. format(num, dobro, num, triplo, num, rQuadrada))
+      'A Raiz quadrada de {} é {:.2f}.'. format(num, (num*2), num, (num*3), num, (num**0.5)))    # Lembrando que se elevarmos qualquer número a
+                                                                                                      # '0,5' ou a '1/2', teremos a raiz quadrada desse número

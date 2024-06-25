@@ -3,10 +3,11 @@
 
 print('\n{:=^40}'.format(' Desafio 008 '))
 
-metro = int(input('Digite a QTD em metro: '))
+metro = float(input('Digite a QTD em metro: '))
 
 cm = metro * 100
 mm = cm * 10
 
 print('Em {}m temos {}cm '
-      '\nEm {}cm temos {}mm'.format(metro, cm, cm, mm))
+      '\nEm {}cm temos {}mm'.format(metro, (metro*100), (metro*100), (metro*100*10)))
+

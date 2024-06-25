@@ -176,7 +176,7 @@ Aula 7 – Operadores Aritméticos
             # se logo depois dos : colocar o sinal de >, será colocado os espaços a esquerda do nome.
             # se logo depois dos : colocar o sinal de ^, o texto ficará centralizado
             # se logo depois dos : colocar o sinal de = e em seguida o sinal de ^, os espaços vazios serão preenchidos com o sinal de =, e o nome ficará centralizado
-            # se logo depois dos : colocar um ponto(.) e um número, vai formatar a qtd de casas de um número.
+            # se logo depois dos : colocar um ponto(.) e um número, vai formatar a qtd de casas de um número. (lembrando de colocar o 'f' depois do número ex: {:.2f}
 
         pular linhas
             se depois do .format(x, y, z) colcoar end='' , não vai pular linha.
@@ -209,6 +209,8 @@ Aula 7 – Operadores Aritméticos
 
     * Exercício 013
         faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento.
+
+       
 
 
 
