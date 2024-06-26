@@ -215,7 +215,60 @@ Aula 7 – Operadores Aritméticos
         pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 
 
+Aula 8 – Utilizando Módulos
 
+                                    import 'Classe' = importa todos os objetos da classe
+                     from 'Classe' importe 'objeto' = importa somento o objeto especificado da classe.
+    from 'Classe' importe 'objeto','outroObjeto'... = importa vários (lembrado que se importar assim não
+                                                        precisa o usar a classe + . + nome do objeto para
+                                                        chamar a função, baista digitar o nome da função
+
+    ex: classe math - temos o objeto:
+        'ceil     =  arredonda para cima'
+        floor     = arredonda para baixo
+        trunc     = quebra o número, ou seja, não arredona.
+        pow       = pow potência = **
+        sqrt      = raiz quadrada (sqrt = square root)
+        factorial = fatorial de um número
+
+    ** Para importar as bibliotecas
+        Acessar o site do python / documentação /doc / escolher a versão/  referencia de biblioteca ou Library reference
+
+    ** Encontre, instale e publique pacotes Python com o Python Package Index
+        posso até clicar um módulo(biblioteca) e disponibilizar na comunidade.
+
+        para importar: Ao importar uma biblioteca que não tem na máquina, aparecera um alerta de erro, basta clicar e selecionar para baixar!
+
+    ** Para verificar os módulos externos instalados no pc:
+
+        Vá para File > Settings (ou Ctrl + Alt + S).
+        Navegar até o Gerenciador de Pacotes:
+
+        No painel esquerdo, expanda Project: <nome_do_seu_projeto> e selecione Python Interpreter.
+        Verificar os pacotes instalados:
+
+        * Exercício 016
+            Crie um programa que leia um núemro real quaquer pelo teclado e mostre na tela a sua porção inteira
+            ex: digite um núemro 6.127
+                O número tem a parte interia 6
+
+        * Exercício 017
+            Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triãngulo retângulo, calcule e mostre o comprimento da hipotenusa
+            obs: tem modulo. tentar achar?
+
+        * Exercício 018
+            Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
+             cosseno e tangente desse ângulo.
+
+        * Exercício 019
+            Um professor quer sortear um dos seus quatros alunos para apagar o quadro.
+             Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+
+         * Exercício 020
+            O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos.
+             Faça um programa que leia o nome dos quatros alunos e mostre a ordem sorteada. (uma sequencia na ordem)
+
+         * Exercício 021
 
 
 

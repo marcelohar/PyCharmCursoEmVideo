@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796e4280-05f2-48df-9116-4bd2706d4fc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicios/ex015.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aulas/aula08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CursoPython" beforeDir="false" afterPath="$PROJECT_DIR$/CursoPython" afterDir="false" />
     </list>
@@ -41,6 +42,7 @@
     "Notification.DoNotAsk-Execution": "true",
     "Python.001.executor": "Run",
     "Python.aula07a.executor": "Run",
+    "Python.aula08.executor": "Run",
     "Python.ex000.executor": "Run",
     "Python.ex001.executor": "Run",
     "Python.ex002.executor": "Run",
@@ -61,7 +63,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/marcelo.rangel/Documents/Projetos/PyCharmCursoEmVideo",
-    "settings.editor.selected.configurable": "editor.preferences.folding"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
