@@ -11,4 +11,4 @@ print('A raiz de {} é igual a {:.2f}'.format(num, raiz))
 
 ## USANDO EMOJI
 
-print(emoji.emojize('Olá, Munddo :sunglasses:'))
+print(emoji.emojize('Olá, Munddo :red_heart:', variant='emoji_type'))

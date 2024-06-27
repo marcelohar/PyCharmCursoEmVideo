@@ -220,8 +220,8 @@ Aula 8 – Utilizando Módulos
                                     import 'Classe' = importa todos os objetos da classe
                      from 'Classe' importe 'objeto' = importa somento o objeto especificado da classe.
     from 'Classe' importe 'objeto','outroObjeto'... = importa vários (lembrado que se importar assim não
-                                                        precisa o usar a classe + . + nome do objeto para
-                                                        chamar a função, baista digitar o nome da função
+                                                        precisa o usar a (classe + . + nome do objeto) para
+                                                        chamar a função, basta digitar o nome da função
 
     ex: classe math - temos o objeto:
         'ceil     =  arredonda para cima'
@@ -235,20 +235,21 @@ Aula 8 – Utilizando Módulos
         Acessar o site do python / documentação /doc / escolher a versão/  referencia de biblioteca ou Library reference
 
     ** Encontre, instale e publique pacotes Python com o Python Package Index
-        posso até clicar um módulo(biblioteca) e disponibilizar na comunidade.
+        posso até cricar um módulo(biblioteca) e disponibilizar na comunidade.
 
-        para importar: Ao importar uma biblioteca que não tem na máquina, aparecera um alerta de erro, basta clicar e selecionar para baixar!
+        para importar: Ao importar uma biblioteca que não tem na máquina, aparecerá um alerta de erro, basta clicar e selecionar para baixar!
 
     ** Para verificar os módulos externos instalados no pc:
 
         Vá para File > Settings (ou Ctrl + Alt + S).
         Navegar até o Gerenciador de Pacotes:
-
         No painel esquerdo, expanda Project: <nome_do_seu_projeto> e selecione Python Interpreter.
         Verificar os pacotes instalados:
 
+
+
         * Exercício 016
-            Crie um programa que leia um núemro real quaquer pelo teclado e mostre na tela a sua porção inteira
+            Crie um programa que leia um núemro real qualquer pelo teclado e mostre na tela a sua porção inteira
             ex: digite um núemro 6.127
                 O número tem a parte interia 6
 
