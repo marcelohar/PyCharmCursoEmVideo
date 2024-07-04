@@ -9,24 +9,28 @@ print('Informe os dados disponíveis.')
 
 h = input("Hipotenusa: ")
 
-if h == "" or h == "0" :
-    ca = int(input('Cateto adjacente: '))
-    co = int(input('Cateto oposto: '))
-    soma = (ca**2) + (co**2)
-    h = int(math.isqrt(soma))
+if h == "" or h == "0":
+    ca = float(input('Cateto adjacente: '))
+    co = float(input('Cateto oposto: '))
+    h = math.hypot(ca, co)
+    print('Valor da hipotenusa: {:.2f}'.format(h))
 
-    print('Valor da hipotenusa: {:.0f}'.format(h))
+    ''' marcelo 
+    soma = int((ca**2) + (co**2))
+    h = float(math.isqrt(soma))
+    '''
+
 
 elif h.isnumeric() and h != 0:
-    c = int(input('Informe o cateto: '))
-    h = int(h)
+    c = float(input('Informe o cateto: '))
+    h = float(h)
 
     # tenho que tratar o erro se a hipotenusa for maior que um dos catetos
 
-    sub = (h**2) - (c**2)
-    cr = math.sqrt(sub)
+    sub = int((h**2) - (c**2))
+    cr = float(math.sqrt(sub))
 
-    print('Valor do cateto que falta: {:.0f}'.format(cr))
+    print('Valor do cateto que falta: {:.2f}'.format(cr))
 
 else:
     print('[ERRO] Somente números!')

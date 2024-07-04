@@ -10,6 +10,6 @@ alt = float(input('Digite a altura: '))
 area = alt * lar
 litros = area / 2
 
-print('É necessário {:.2f}L para pintar uma área de {:.2f}m²  quadrados!'.format(litros, area))
+print('É necessário {:.2f}L para pintar uma área de {:.2f}m² quadrados!'.format(litros, area))
 
 
