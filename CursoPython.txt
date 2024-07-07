@@ -272,6 +272,69 @@ Aula 8 – Utilizando Módulos
          * Exercício 021
             Faça um programa em python que abra e reproduza o áudio de um arquivo mp3
 
+Aula 9 – Manipulando Texto
+
+    * Fatiamento:
+
+        frase = 'Curso em video python'                                   # equivale a um vetor de 21 posições
+
+        Cada letra ou espaço ocupa essa posição, então:
+            - frase[9] = V                                                # vai de 0 a 9 que totaliza 10 posições. Pegamos 1 letra
+
+            - Para pegar uma palavras temos que colocar o intervalo +1:
+                frase[9:14] = video                                       # apesar que a última posição da palavra é 13
+
+            - Pulando letras em uma sequência:
+                frase[9:21:2] = vdopto                                    # intervalo de 9:21 pula de 2 em 2
+
+            - De 0 até n numero:
+                frase[:5] = Curso                                         # pega do '0' até posição 5 - tira uma posição fica "curso"
+
+            - De um numero até o final:
+                frase[15:] = Python                                       # pega da posição 15 até o final da frase.
+
+            - frase[9::3]                                                 # inicia no indice 9 e vai até o final pulando de 3 em 3
+
+    * Analise
+        len(frase) = 21             # tamanho ou qtd de espaços
+
+        frase.count('0') = 3        # qtd de letras 'o'
+
+        frase.count('0',0,13)       # Faz contagem do 'o' com fatiamento entre a posição 0 e 14, já que tem que remover uma posição
+
+        frase.find('deo')           # Encontra uma sequencia e retorna a primeira posição dela
+
+        frase.find('Android') = -1  # Significa que não encontrou.
+
+        'Curso' in frase = true     # retorna verdadeiro se existir a palavra na frase não importando a posição.
+
+    * Transformação
+        frase.replace('Python','Android')       # procura a palavra 'python' e substitui por ' Android'
+
+        frase.upper()                           # Deixa maiúscula
+
+        frase.lower()                           # deixa minúculo
+
+        Frase.capitalize()                      # Deixa somente a primeira letra maiúscula
+
+        frase.title()                           # Deixa as primeira letras das palavras em maiúscula
+
+        ***** nova frase:
+            frase = '___Aprendenda Python__'
+
+            frase.strip()                       # Remove os espaços iniciais e finais
+
+            frase.rstrip()                      # r de right - remove somente os espaços da direita e mantem os da esquerda
+
+            frase.lstrip()                      # l de left - remove somente os espaços da esquerda em mantem os da direita
+
+    * Divisão
+        ***** voltando a frase 'Curso em video python'
+
+        frase.split()                           # Separa as plavras e atribui novos indeces para as palavras -- Pesquisar!!!
+
+        CONTINUAR...  VIDEO 09 TIME 27:32
+        sda
 
 
 ################################################################################################################
