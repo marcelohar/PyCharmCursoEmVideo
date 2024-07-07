@@ -65,8 +65,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
     &quot;last_opened_file_path&quot;: &quot;C:/Users/marcelo.rangel/Documents/Projetos/PyCharmCursoEmVideo&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marcelo.rangel/Documents/Projetos/PyCharmCursoEmVideo/exercicios&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+>>>>>>> Stashed changes
   }
 }</component>
   <component name="RecentsManager">
