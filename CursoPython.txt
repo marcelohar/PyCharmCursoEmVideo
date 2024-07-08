@@ -349,6 +349,8 @@ Aula 9 – Manipulando Texto
         # uma string é imutável. Não posso trocar uma letra dentro da strig: frase[0]= 'j' - dará erro.
 
         # o 'replace' não muda a string, mas gera uma nova!!
+
+
         ---------------------------
              * Exercício 022
                 crie um programa que leia o nome completo com todas as letras:
