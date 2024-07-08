@@ -331,10 +331,74 @@ Aula 9 – Manipulando Texto
     * Divisão
         ***** voltando a frase 'Curso em video python'
 
-        frase.split()                           # Separa as plavras e atribui novos indeces para as palavras -- Pesquisar!!!
+        frase.split()                           # Separa as plavras e atribui novos indeces para as palavras -- Pesquisar!!! ou seja, gera uma lista com todas as palavras de uma cadeia de caracteres
 
-        CONTINUAR...  VIDEO 09 TIME 27:32
-        sda
+        '-'.join(frase)
+            gera uma string única com o separador '-' - curso-em-video-python
+
+    ****** Praticando....
+
+        # Dando print em varias linhas ao mesmo tempo, basta usar """ no print
+
+        print("""Nessa aula, vamos aprender operações com String no
+        Python. As principais operações que vamos aprender são o
+        Fatiamento de String, Análise com len(), count(), find(),
+        transformações com replace(), upper(), lower(), capitalize(),
+        title(), strip(), junção com join().""")
+
+        # uma string é imutável. Não posso trocar uma letra dentro da strig: frase[0]= 'j' - dará erro.
+
+        # o 'replace' não muda a string, mas gera uma nova!!
+        ---------------------------
+             * Exercício 022
+                crie um programa que leia o nome completo com todas as letras:
+                - maiusculas
+                - minusculas
+                - qtd letras sem espaço
+                - qtd letras o primeiro nome
+
+             * Exercício 023
+                Faca um programa que leia um número de 0  9999 e mostre na tela cada um dos gigitos separados
+                ex: 1834
+                    unidade: 4
+                    dezena: 3
+                    centena: 8
+                    milhar: 1
+
+             * Exercício 024
+                Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "santo"
+
+             * Exercício 025
+                Crie um programa que leia o nome de uma pessoa e diga se ela tem 'silva' no nome
+
+             * Exercício 026
+                Faça um programa que leia uma frase pelo teclado e mostre:
+                 - qtd de vezes que aparece a letra "A"
+                 - Qual a posição que ela aparede a primeira vez
+                 - Qual a posição ela aparece a última vez.
+
+              * Exercício 027
+                faça uma programa para ler o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ################################################################################################################
