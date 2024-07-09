@@ -8,7 +8,7 @@ aula 2 - para que serve o python?
     1995 - CP4E PATROCINADO PELA DARPA
     2001 - FUNDAÇÃO PYTHON SOFTWARE FOUNDATION (PSF)
 
-    LIGUAGEM QUE VEM INSTALADO DE FABRIA EM: AMIGA, NetBSD, MacOS Linux... RaspberryPi
+    LIGUAGEM QUE VEM INSTALADO DE FABRIcA EM: AMIGA, NetBSD, MacOS Linux... RaspberryPi
 
     CARACTERISTICAS PYTHON:
         Linguagem de propósito geral;
@@ -45,7 +45,7 @@ aula 2 - para que serve o python?
 
 Aula 3 – Instalando o Python3 e o IDLE (Modo interativo do python (cmd legal))
 
-
+   Como funciona:
    usuário --> (interprete / interpretador )--> Linguagem de máquina
 
    python = interpretador
