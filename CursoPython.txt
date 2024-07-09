@@ -383,6 +383,59 @@ Aula 9 – Manipulando Texto
                 faça uma programa para ler o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
 
 
+Aula 10 – Condições (Parte 1)
+
+    Estrutura sequêncial =  quando só tem um caminho.
+
+    Estrutura condicional = quando se tem mais de uma opção
+    -simples
+        if a > b:
+        print("a é maior que b")
+
+
+    - composta
+        if a > b:
+            print("a é maior que b")
+        elif a < b:
+            print("a é menor que b")
+        else:
+            print("a é igual a b")
+
+    ** Condição simplificada
+        print('Carro novo' if tempo <= 3 else 'Carro velho')        # Lembrando que essa forma não é um operador ternário, pois o python não tem operadores ternário.
+
+    --------------------------
+    exercícios
+    -------------------------
+      * Exercício 028
+        Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador
+        O programa deverá escrever na tela se o usuário venceu ou perdeu
+
+      * Exercício 029
+        Escreva um programa que leia  a velocidade de um carro. Se ele utrapassar 80km/h, mostre uma mensagem dizend que ele foi multado.
+        A multa vai custar R$ 7,00 por cada km acima do limite.
+
+      * Exercício 030
+        Cria um programa que leia um número inteiro e mostre na tela se ele é par ou ímpar.
+
+      * Exercício 031
+        Desenvolva um programa que pergunte a distância de uma viagem em km. Calcule o preço da passagem, cobrando R$ 0,50 por km pra viagens de até 200km e R$0,45 para viagens mais longas
+
+      * Exercício 032
+        Faça um programa que leia um ano qualquer e mostre se ele é bissexto - *** estudar o que é ano bissexto.
+
+      * Exercício 033
+        Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
+
+      * Exercício 034
+        Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
+        para salários superiores a R$ 1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%
+
+      * Exercício 035
+        Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triangulo retangulo.
+
+
+
 
 
 
