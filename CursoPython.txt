@@ -8,7 +8,7 @@ aula 2 - para que serve o python?
     1995 - CP4E PATROCINADO PELA DARPA
     2001 - FUNDAÇÃO PYTHON SOFTWARE FOUNDATION (PSF)
 
-    LIGUAGEM QUE VEM INSTALADO DE FABRIcA EM: AMIGA, NetBSD, MacOS Linux... RaspberryPi
+    LIGUAGEM QUE VEM INSTALADa DE FABRIA EM: AMIGA, NetBSD, MacOS Linux... RaspberryPi
 
     CARACTERISTICAS PYTHON:
         Linguagem de propósito geral;
@@ -111,7 +111,7 @@ Aula 5 – Instalando o PyCharm (PC) e o QPython3(Android) (IDE para desenvolver
     Exercício 1 – Deixando tudo pronto
         obs:
         - Para o python entende que é o final do programa, é necessário da um 'ENTER' na última linha e manter o padrão de identação.
-        - Para escluir um arquivo, clicar com botão direito em cima / Refactor / Safe Delete / ok
+        - Para excluir um arquivo, clicar com botão direito em cima / Refactor / Safe Delete / ok
 
 Aula 6 – Tipos Primitivos e Saída de Dados
 
@@ -220,7 +220,7 @@ Aula 8 – Utilizando Módulos
                                     import 'Classe' = importa todos os objetos da classe
                      from 'Classe' importe 'objeto' = importa somento o objeto especificado da classe.
     from 'Classe' importe 'objeto','outroObjeto'... = importa vários (lembrado que se importar assim não
-                                                        precisa o usar a (classe + . + nome do objeto) para
+                                                        precisa  usar a (classe + . + nome do objeto) para
                                                         chamar a função, basta digitar o nome da função
 
     ex: classe math - temos o objeto:

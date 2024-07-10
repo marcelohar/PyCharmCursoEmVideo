@@ -11,7 +11,7 @@ for i in range(4):
     nome = input('{}º Aluno: '.format(i+1))
     nomes.append(nome)
 
-r = random.choice(nomes)
+r = random.choice(nomes)                        # escolha aleatoria em nomes
 print('Selecionado {}!'.format(r))
 
 
