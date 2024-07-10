@@ -8,6 +8,7 @@ print('\n{:=^40}'.format(' Desafio 028 '))
 n = [0, 1, 2, 3, 4, 5]
 r = random.choice(n)
 
+print(r)
 us = str(input('De "0" a "5", tente adivinhar qual número eu escolhi: '))
 
 if us.isnumeric() and not us.isspace():
