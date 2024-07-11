@@ -13,7 +13,7 @@ def is_float(v):
     except ValueError:      # Deu erro, pois não conseguiu converter
         return False        # retorne False
 
-sSal = str(input('Qual o valor do salário (use (.) para separar) R$: '))
+sSal = str(input('Qual o valor do salário (use (.) para separar) R$: ')).strip()
 
 if is_float(sSal) and not sSal.isspace():
     sal = float(sSal)

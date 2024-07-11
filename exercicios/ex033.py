@@ -4,9 +4,9 @@
 print('\n{:=^40}'.format(' Desafio 033 '))
 
 print('Informe 3 número')
-sN1 = str(input('1º Nº: '))
-sN2 = str(input('2º Nº: '))
-sN3 = str(input('3º Nº: '))
+sN1 = str(input('1º Nº: ')).strip()
+sN2 = str(input('2º Nº: ')).strip()
+sN3 = str(input('3º Nº: ')).strip()
 
 if sN1.isnumeric() and sN2.isnumeric() and sN3 and not sN1.isspace() and not sN2.isspace() and not sN3.isspace():
     n1 = int(sN1)
