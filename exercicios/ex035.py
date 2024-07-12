@@ -14,19 +14,28 @@ if sR1.isnumeric() and sR2.isnumeric() and sR3.isnumeric():
     r3 = int(sR3)
 
     maior = r1
+
+
+    if r3 > maior:                                              # Lembrando que a sequência 3,2,1 faz diferença
+        maior = r3
+        if r3**2 == r2**2 + r1**2:
+            print('3 As Retas formam um triângulo retângulo!')
+        else:
+            print('3 As retas NÃO formam um triângulo!')
+
     if r2 > maior:
         maior = r2
 
-    if r3 > maior:
-        maior = r3
+        if r2 ** 2 == r1 ** 2 + r3 ** 2:
+            print('2 As Retas formam um triângulo retângulo!')
+        else:
+            print('2 As retas NÃO formam um triângulo!')
 
-#    if maior**2 ==  como vou saber quais dos r é os outros dois menores. Se por acaso o r2 for maior como vou saber que r3 e r1 sao os menosres/
-
-
-    # maior = hip, qual é maior?
-
-
-    # h^2 = c1^2 + c2^2
+    if r1 == maior:
+        if r1**2 == r2**2 + r3**2:
+            print('1 As Retas formam um triângulo retângulo!')
+        else:
+            print('1 As retas NÃO formam um triângulo!')
 
 else:
     print('[ERRO] Dados inválidos.')
