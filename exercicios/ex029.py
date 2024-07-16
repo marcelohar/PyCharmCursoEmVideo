@@ -29,7 +29,7 @@ from colorama import Fore                              # precisa baixar a biblio
 velocidade = float(input('Qual é a velocidade atual do carro? '))
 if velocidade > 80:
     multa = (velocidade - 80) * 7
-    print(Fore.RED + 'Voce foi multado em R${:.2f}'.format(multa))      #fore = frete?
+    print(Fore.RED + 'Voce foi multado em R${:.2f}'.format(multa) + Fore.RESET)      #fore = frete?
 
-print(Fore.RESET + 'Tenha um bom dia! Dirija com segurança!')
+print( 'Tenha um bom dia! Dirija com segurança!')
 
