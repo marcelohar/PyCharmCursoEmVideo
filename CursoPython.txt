@@ -4,11 +4,15 @@ aula 1 -
 aula 2 - para que serve o python?
 
     História -
-    inicio = 1982 Amsterdan holanda / gyudi van hossum liguagem abc para python
-    1995 - CP4E PATROCINADO PELA DARPA
-    2001 - FUNDAÇÃO PYTHON SOFTWARE FOUNDATION (PSF)
+    inicio = 1982 Amsterdan holanda / guido van hossum -programador de liguagem abc - depois criou python (comandos simples)
+        foi batizada como pythom pq o guido gosatva do programa de tv "MONTY PYTHON´S FLYING CIRCUS"  na epoca era custume dar os nomes de programas de rádio e tv
 
-    LIGUAGEM QUE VEM INSTALADa DE FABRIA EM: AMIGA, NetBSD, MacOS Linux... RaspberryPi
+    1995 - CP4E (prgramação de computadores-projeto do guido para todo mundo - PATROCINADO PELA DARPA)
+
+    2001 - FUNDAÇÃO PYTHON SOFTWARE FOUNDATION (PSF) - sem fins lucrativos e que mantem o python
+
+    LIGUAGEM QUE VEM INSTALADa DE FABRIA EM:
+        AMIGA, NetBSD, MacOS Linux... RaspberryPi
 
     CARACTERISTICAS PYTHON:
         Linguagem de propósito geral;
